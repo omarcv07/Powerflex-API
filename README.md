@@ -57,9 +57,11 @@ I used a Clean Architecture on this application to create a software that is mor
 
 ## Testing
 
+I used FIRST principles in order to make good written tests
+
 - This application is using Chai, Mocha and Supertest for testing purposes.
 - Run the tests `npm run test`
 
 ## Environment
 
-- This enviroment is under prettier and eslint rule code styles
+- This environment is under prettier and eslint rule code styles
