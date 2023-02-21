@@ -46,7 +46,7 @@ describe('sprocketRoutes', () => {
   });
 
   describe('PUT /api/sprockets/:id', () => {
-    it('should update an existing sprocket and respond with the updated sprocket object', async () => {
+    it('should update an existing sprocket and return the updated sprocket object', async () => {
       const updatedSprocket = {
         teeth: 32,
         pitch_diameter: 50.5,

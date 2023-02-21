@@ -1,17 +1,16 @@
 const makeSprocketDb = ({ Sprocket }) => {
-  async function findAll () {
+  async function findAll() {
     const sprockets = Sprocket.findAll();
     return sprockets;
   }
-  async function findOne (id) {
-    console.log('SprocketSprocket', Sprocket);
+  async function findOne(id) {
     const sprocket = await Sprocket.findByPk(id);
     return sprocket;
   }
-  async function insert (sprocketData) {
+  async function insert(sprocketData) {
     return Sprocket.create(sprocketData);
   }
-  async function update (id, sprocketData = {}) {
+  async function update(id, sprocketData = {}) {
     const sprocket = await Sprocket.findByPk(id);
 
     if (!sprocket) {

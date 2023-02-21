@@ -6,6 +6,7 @@ Build a RESTful api that services requests for sprocket factory data and sprocke
 
 - Docker
 - Docker Compose
+- PostgreSQL
 
 ## Installation
 
@@ -16,7 +17,9 @@ git clone https://github.com/omarcv07/Powerflex-API.git
 cd Powerflex-API
 ```
 
-- Create a .env file and add the following environment variables:
+- Instantiate a new PostgreSQL database
+
+- Please check the docker-compose.yml file to validate the variables data and create a .env file and add the following environment variables:
 
 ```
 DB_HOST=[database host]
