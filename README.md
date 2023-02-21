@@ -8,11 +8,12 @@ Build a RESTful api that services requests for sprocket factory data and sprocke
 - Docker Compose
 
 ## Installation
+
 - Clone the repository and navigate to the project directory:
 
 ```
-git clone https://github.com/[username]/[repository].git
-cd [repository]
+git clone https://github.com/omarcv07/Powerflex-API.git
+cd Powerflex-API
 ```
 
 - Create a .env file and add the following environment variables:
@@ -26,6 +27,7 @@ DB_PORT=[database port]
 ```
 
 - Build the Docker image
+
 ```
 docker-compose build
 ```
@@ -37,7 +39,7 @@ docker-compose run --rm app npx sequelize-cli db:migrate
 ```
 
 - To run the seeders
-  
+
 ```
 docker-compose run --rm app npx sequelize-cli db:seed:all
 ```
@@ -45,6 +47,7 @@ docker-compose run --rm app npx sequelize-cli db:seed:all
 ## Architecture
 
 I used a Clean Architecture on this application to create a software that is more:
+
 - Testable
 - Maintainable
 - Independent of a framework
@@ -52,12 +55,11 @@ I used a Clean Architecture on this application to create a software that is mor
 - Independent of UI
 - ... and independent of any other tools and drivers
 
-
 ## Testing
 
--   This application is using Chai, Mocha and Supertest for testing purposes.
--   Run the tests `npm run test`
+- This application is using Chai, Mocha and Supertest for testing purposes.
+- Run the tests `npm run test`
 
 ## Environment
 
--   This enviroment is under prettier and eslint rule code styles
+- This enviroment is under prettier and eslint rule code styles
