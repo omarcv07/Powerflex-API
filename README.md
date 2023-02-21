@@ -1,4 +1,4 @@
-# Powerflex Test
+# Powerflex Code Challenge
 
 Build a RESTful api that services requests for sprocket factory data and sprockets using docker/docker-compose to standing up the datastore.
 
