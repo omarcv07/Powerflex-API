@@ -58,6 +58,6 @@ I used a Clean Architecture on this application to create a software that is mor
 -   This application is using Chai, Mocha and Supertest for testing purposes.
 -   Run the tests `npm run test`
 
-## Enviroment
+## Environment
 
 -   This enviroment is under prettier and eslint rule code styles
